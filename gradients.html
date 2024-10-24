@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <svg height = "200" width = "300">
+        <defs>
+            <linearGradient id = "iloveGradient1" x1 = "0%" x2 = "100%" y = "0%" y2 = "0%">
+                <stop offset = "0%" stop-color = "blue"/>
+                <stop offset = "100%" stop-color = "red"/>  
+            </linearGradient>
+
+        </defs>
+        <rect width = "300" height = "200" fill = "url(#iloveGradient1)"></rect>
+    </svg>
+
+
+    <svg height = "200" width = "300">
+        <defs>
+            <radialGradient id = "iloveGradient2" cx="%" cy="50%" r="100%" fx="50%" fy="50%">
+                <stop offset="0%" stop-color="red"/>
+                <stop offset="100%" stop-color="blue"/>
+            </radialGradient>
+        </defs>
+        <rect width = "300" height = "200" fill = "url(#iloveGradient2)"></rect>
+    </svg>
+   
+      <svg width="300" height="150">
+        <defs>
+          <linearGradient id="gradientRepeat" spreadMethod="repeat" x1="30%" x2="67%">
+            <stop offset="0%" stop-color="blue" />
+            <stop offset="100%" stop-color="red" />
+          </linearGradient>
+        </defs>
+
+        <rect fill="url(#gradientRepeat)" x="20" y="100" width="200" height="40" />
+      </svg>
+      
+
+
+
+</body>
+</html>
